@@ -39,6 +39,7 @@ body, html{
     padding-top: 10px;
     font-family: Poppins;
     text-align: center;
+    cursor: pointer;
     line-height: 20px;
     font-weight : 100px
     letter-spacing: -0.01em;
@@ -64,6 +65,7 @@ body, html{
     border: 1px;
     font-size: 14px;
     font-weight: 600;
+    cursor: pointer;
     padding: 10px 20px;
 }
 
@@ -145,19 +147,17 @@ div .search-box span{
 }
 
 .list-section {
-    padding: 50px 100px 0px 0px;
+    padding: 50px 100px 60px 100px;
 }
 
 .list-section > div:first-child {
     font-size: 28px;
-    margin: 0px 0px 0px 100px;
     font-weight : 600;
 }
 
 .filter-menu {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0px 5px 60px;
 }
 
 .filter-menu > ul {
@@ -165,6 +165,7 @@ div .search-box span{
     display: flex;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .filter-menu > ul > li {
@@ -197,7 +198,7 @@ div .search-box span{
 }
 
 .table-box {
-    margin: 10px 0px 5px 60px;
+    /* margin: 10px 0px 5px 60px; */
 }
 
 .table-box table tbody tr {
@@ -242,4 +243,174 @@ td img:not(.image) {
     text-decoration: underline;
     cursor: pointer;
     margin: 10px 0 0 5px;
+}
+
+.category-section {
+    margin: 60px 100px 60px 100px;
+}
+
+.category-section > div:first-child{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+}
+
+.category-section >.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 20px;
+   
+}
+.category-section >.image-section .image{
+    border-radius: 8px;
+} 
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: transparent; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+}
+
+.why-us-section {
+    margin: 60px 100px 100px 100px;
+    display: flex;
+    padding: 40px;
+}
+
+.why-us-section > .content {
+    display: block;
+    margin: 50px;
+}
+
+.why-us-section > .content span{
+    color: #F59E00;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: left;
+}
+
+.why-us-section > .content p{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+
+.why-us-section > .content img{
+    margin-bottom: 20px;
+}
+
+.why-us-section > .content .heading-text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.96px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.why-us-section > .content .sub-text{
+    margin-bottom: 60px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.08px;
+    text-align: left;
+}
+
+.why-us-section > .content > .row {
+    display : flex;
+}
+
+.plan-section {
+    padding: 65px 267px;
+    background-color: #0432DF;
+}
+
+.plan-section span:first-child {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.74px;
+    letter-spacing: -0.02em;
+}
+.plan-section .row {
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card {
+    display: inline;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 26px 34px;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+.plan-section div.plan-heading {
+    text-align: center;
+}
+
+.plan-card > .plan-text {
+    width: 256px;
+    height: 93px;
+    margin-top: 13px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30.96px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #EEEEEE;
+}
+
+.plan-card + .premium {
+    background-color: #1B4BFF;
+}
+
+.plan-card > .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-top: 25px;
+    color: #EEEEEE;
+}
+
+.plan-card button {
+    margin: 17px 0 40px 0;
+    padding: 14px 24px;
+    color: #EEEEEE;
+    border-radius: 8px;
+    border: 2px  solid #EEEEEE;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.plan-card button.premium {
+    background-color: #FFFFFF ;
+    color : #0432DF;
 }
