@@ -4,6 +4,10 @@ body, html{
     height: 100%;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .landing-section {
     overflow: hidden;
     background-image: url("images/header-img.png");
@@ -71,6 +75,7 @@ body, html{
     line-height: 34px;
     letter-spacing: -0.05em;
     text-align: center;
+    margin-bottom: 51px;
 }
 
 .Headline-text {
@@ -89,10 +94,7 @@ body, html{
     width: 123px;
 }
 
-.search-box {
-    margin-top: 40px;
-    margin-left : 50px;
-}
+
 .search-input {
     padding: 16px 260px 15px 40px;
     border-radius: 8px;
@@ -545,6 +547,41 @@ td img:not(.image) {
 /* For tablets */
 @media only screen and (max-width: 1023px) {
     
+    .navbar {
+        padding: 0px 15px;
+    }
+    .navbar ul { 
+        display: none;
+    }
+    .header-logo {
+        padding: 20px 16px;
+    }
+    .menu-icon {
+        cursor: pointer;
+        margin: 34px 16px;
+        display: block;
+    }
+
+    .search-input{
+        padding: 17px 260px 15px 40px;
+    }
+
+    .heading-content {
+        margin: 100px 50px;
+    }
+
+    .search-icon {
+        right: 440px;
+    }
+    
+    .logo-section{
+        padding: 50px 0px 0px 0px;
+    } 
+
+    .branding-logos img {
+        margin-right: 20px;
+    }
+
     .footer-section > .center > .row {
         flex-direction: column; /* Stack items vertically on smaller screens */
         margin-right: 0; /* Remove margin */
@@ -558,10 +595,48 @@ td img:not(.image) {
         padding: 5px;
         margin-top: 10px; /* Add some spacing between menu items */
     }
+    
 }
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
+    .navbar ul { 
+        display: none;
+    }
+    .header-logo {
+        padding: 20px 40px;
+    }
+    .menu-icon {
+        margin: 30px 0px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .search-input{
+        padding: 17px 100px 15px 40px;
+    }
+
+    .logo-section {
+        padding: 30px, 16px, 40px, 16px;
+    }
+
+    .search-icon {
+        right: 280px;
+    }
+
+    .branding-logos {
+        display: flow;
+        margin: 35px 20px 60px 50px;
+    }
+    
+    .branding-logos img {
+        margin-right: 20px;
+    }
+
+    .heading-content {
+        margin: 100px 50px;
+    }
+
     .footer-content,
     .footer-logo {
         width: auto; /* Let content adapt to smaller screens */
