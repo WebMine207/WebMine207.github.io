@@ -2,15 +2,10 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
-    
-}
-
-#app {
-    height: 100%;
-    overflow: hidden;
 }
 
 .landing-section {
+    overflow: hidden;
     background-image: url("images/header-img.png");
     background-repeat: no-repeat;
     background-size: cover;
