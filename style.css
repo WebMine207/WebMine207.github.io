@@ -4,6 +4,13 @@ body, html{
     height: 100%;
 }
 
+.menu-icon {
+    display: none;
+}
+
+/* 
+* landing section  
+*/
 .landing-section {
     overflow: hidden;
     background-image: url("images/header-img.png");
@@ -71,6 +78,7 @@ body, html{
     line-height: 34px;
     letter-spacing: -0.05em;
     text-align: center;
+    margin-bottom: 51px;
 }
 
 .Headline-text {
@@ -89,10 +97,7 @@ body, html{
     width: 123px;
 }
 
-.search-box {
-    margin-top: 40px;
-    margin-left : 50px;
-}
+
 .search-input {
     padding: 16px 260px 15px 40px;
     border-radius: 8px;
@@ -120,6 +125,9 @@ div .search-box span{
     flex: 1;
 }
 
+/* 
+* logo section  
+*/
 .logo-section{
     padding: 50px 0px 0px 0px;
 }
@@ -140,6 +148,10 @@ div .search-box span{
     width: 50px;
     height: 62px;
 }
+
+/* 
+* list section  
+*/
 
 .list-section {
     padding: 50px 100px 60px 100px;
@@ -179,6 +191,11 @@ div .search-box span{
     height: 36px;
     padding: 2px 14px 2px 16px;
 }
+
+.table-box tbody tr td:first-child {
+    width: 30%;
+}
+
 .filter-btn {
     display: flex;
     align-items: center;
@@ -239,6 +256,9 @@ td img:not(.image) {
     margin: 10px 0 0 5px;
 }
 
+/* 
+* category section  
+*/
 .category-section {
     margin: 60px 100px 60px 100px;
 }
@@ -331,6 +351,10 @@ td img:not(.image) {
     display : flex;
 }
 
+
+/* 
+* plan section  
+*/
 .plan-section {
     padding: 65px 267px;
     background-color: #0432DF;
@@ -421,6 +445,9 @@ td img:not(.image) {
     background-color: #020D37;
 }
 
+/* 
+* review section  
+*/
 .review-section {
     padding: 51.75px 100px;
 }
@@ -439,6 +466,7 @@ td img:not(.image) {
 
 .reviews {
     display: inline-flex;
+    flex-wrap : wrap;
     margin: 50px, 10px, 50px, 10px;
 }
 
@@ -478,30 +506,28 @@ td img:not(.image) {
     color: #ACAFB8;
 }
 
+/* 
+* Footer section
+*/
 .footer-section > div {
-    display: inline;
     color: #EEEEEE;
+    display: contents;
 }
 
-.footer-section > .center > .row {
+.footer-section {
     display: flex;
-    justify-content: space-between;
-    margin-right: 80px;
-    text-align : left;
-    color: #eeeeee; 
-}
-
-.footer-menu {
-    display: flex;
+    flex-flow: wrap;
+    padding: 51.75px 100px;
+    background-color: #020D37;
     justify-content: space-between;
 }
-
-.footer-menu > div {
-    padding: 5px; 
+ 
+.footer-section .links {
+    display: contents;
 }
 
-.row > .about-content {
-    margin: 10px;
+.about-content {
+    margin: 30px 10px;
 }
 
 .footer-logo {
@@ -542,37 +568,234 @@ td img:not(.image) {
 }
 
 
+
 /* For tablets */
 @media only screen and (max-width: 1023px) {
     
-    .footer-section > .center > .row {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        margin-right: 0; /* Remove margin */
+    .navbar {
+        padding: 0px 15px;
+    }
+    .navbar ul { 
+        display: none;
+    }
+    .header-logo {
+        padding: 20px 16px;
+    }
+    .menu-icon {
+        cursor: pointer;
+        margin: 34px 16px;
+        display: block;
     }
 
-    .footer-menu {
-        flex-direction: column; /* Stack menu items vertically */
+    .search-input{
+        padding: 17px 260px 15px 40px;
     }
 
-    .footer-menu > div {
-        padding: 5px;
-        margin-top: 10px; /* Add some spacing between menu items */
+    .heading-content {
+        margin: 100px 50px;
     }
+
+    .list-section {
+        padding: 50px 60px 50px 60px;
+    }
+
+    .table-box tbody tr td.tablets { 
+        display: none;
+    }
+    
+    .table-box tbody tr td:first-child {
+        width: 25% !important;
+    }
+
+    .table-box table tbody tr{
+        margin: 20px 0px;
+    }
+
+    .category-section {
+        margin: 40px 60px;
+    }
+
+    .category-section >.image-section {
+        display: flex;
+        flex-flow: wrap;
+    }
+    
+
+    .why-us-section span {
+        text-align: center;        
+    }
+
+    .why-us-section {
+        margin: 0px;
+        display: block;
+        padding: 10px;
+    }
+
+    .why-us-section > .content:first-child {
+        text-align : center;
+    }
+
+    .why-us-section > .content p {
+        text-align: center;
+    }
+
+    .plan-section {
+        padding: 60px 60px;
+    }
+    
+    .plan-section .row {
+        display: flex;
+        justify-content : center;
+    }
+
+    .review-section {
+        padding : 20px;
+    }
+
+    .review-card {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .reviews > .tablet {
+        display: none;
+    }
+
+    .search-icon {
+        right: 440px;
+    }
+    
+    .logo-section{
+        padding: 50px 0px 0px 0px;
+    } 
+
+    .branding-logos img {
+        margin-right: 20px;
+    }
+    
+    .footer-section .links {
+        display: flex;
+    }
+
+    .links span {
+        margin-right : 100px;
+    }
+
+    .footer-section b {
+        text-wrap: nowrap;
+    }    
 }
+
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-    .footer-content,
-    .footer-logo {
-        width: auto; /* Let content adapt to smaller screens */
+    .navbar ul { 
+        display: none;
+    }
+    .header-logo {
+        padding: 20px 40px;
+    }
+    .menu-icon {
+        margin: 30px 0px;
+        display: block;
+        cursor: pointer;
     }
 
-    .footer-section > .center > .row {
-        flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    .search-input{
+        padding: 17px 100px 15px 40px;
     }
 
-    .footer-section > .center > .row > div {
-        flex-basis: calc(50% - 20px); /* Make each item take half of the row width */
-        margin: 10px; /* Add margin between items */
+    .table-box tbody tr td:first-child {
+        width: 35% !important;
+    }
+
+    .logo-section {
+        padding: 30px, 16px, 40px, 16px;
+    }
+
+    .list-section {
+        padding: 14px 16px;
+    }
+
+    .table-box tbody tr td.mobile { 
+        display: none;
+    }
+
+    .table-box table tbody tr{
+        margin: 20px 0px;
+    }
+
+    .search-icon {
+        right: 280px;
+    }
+
+    .branding-logos {
+        display: flow;
+        margin: 35px 20px 60px 50px;
+    }
+    
+    .branding-logos img {
+        margin-right: 20px;
+    }
+
+    .heading-content {
+        margin: 100px 50px;
+    }
+
+    .category-section {
+        margin: 20px 30px;
+    }
+
+    .filter-menu > ul .mobile{
+        display: none;
+    }
+
+    .table-box table tbody td .mobile{
+        display: none;
+    } 
+
+    .category-section >.image-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .why-us-section {
+        margin: 0px;
+        display: block;
+        padding: 10px;
+    }
+
+    .why-us-section > .content:first-child {
+        text-align : center;
+    }
+
+    .plan-section .row {
+        display: block;
+    }
+
+    .plan-card {
+        display: block;    
+    }
+
+    .plan-card > .plan-text {
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+    .reviews > .mobile {
+        display: none;
+    }
+
+    .footer-section {
+        padding: 16px 25px 45px 25px;     
+    }
+    
+    .footer-section .links {
+       display: flex;
+       flex-wrap: wrap;
+    }   
+
+    .links span {
+        margin : 20px 50px 0 0;
     }
 }
