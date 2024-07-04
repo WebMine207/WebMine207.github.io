@@ -1,28 +1,32 @@
-/** Variables */
+$pureWhiteColor: #ffffff;
+$pureBlackColor: #000000;
+$darkBlueColor : #0029C2;
 $deepBlueColor: #0432df;
-$darkBlColor : #0029C2;
-$whiteColor: #ffffff;
-$blackColor: #000000;
-$darkBlueColor : #020d37;
+$darkpurpleColor : #0432DF;
 $lightblueColor : #CDD6F9;
 $orangeColor : #F59E00;
-$yellowColor: #FCE2B3;
+$braveYellowColor: #FCE2B3;
 $titleDarkColor: #020D37;
 $descriptivedarkColor : #4C526A;
 $grayColor: #4F5261;
 
 @font-face {
-    font-family: 'Poppins-semibold'; 
+    font-family: 'Poppins'; 
     src: url('font/Poppins/Poppins-SemiBold.ttf'); 
-  }
-
-* {
-    box-sizing: border-box;
 }
-.border {
-    width: 40%;
+@font-face {
+    font-family: 'Inter'; 
+    src: url('font/inter/static/Inter-VariableFont_slnt,wght.ttf'); 
+}
+  
+  .components-box {
+    width: auto;
+    margin: 5px;
     border: dashed 1px #000000;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
 }
 
 @mixin btn-primary {
@@ -33,13 +37,14 @@ $grayColor: #4F5261;
     border-radius: 8px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    font-family: Poppins-semibold;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.01em;
     border: 1px;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -52,14 +57,14 @@ $grayColor: #4F5261;
 }
 .btn-two {
     @include btn-primary;
-    background-color: $darkBlColor;
+    background-color: $darkBlueColor;
     width: Hug (169px)px;
     height: Hug (52px)px;
     padding: 14px 24px;
 }
 .btn-three {
     @include btn-primary;
-    background-color: $darkBlColor;
+    background-color: $deepBlueColor;
     width: Hug (146px)px;
     height: Hug (44px)px;
     padding: 10px 20px;
@@ -68,7 +73,7 @@ $grayColor: #4F5261;
 }
 .btn-four {
     @include btn-primary;
-    background-color: $darkBlColor;
+    background-color: $darkBlueColor;
     width: Hug (146px)px;
     height: Hug (44px)px;
     top: 28px;
@@ -77,7 +82,7 @@ $grayColor: #4F5261;
 }
 .btn-five {
     @include btn-primary;
-    background-color: $whiteColor;
+    background-color: $pureWhiteColor;
     color: $deepBlueColor;
     width: Hug (169px)px;
     height: Hug (52px)px;
@@ -97,7 +102,7 @@ $grayColor: #4F5261;
 }
 .btn-seven {
     @include btn-primary;
-    background-color: $whiteColor;
+    background-color: $pureWhiteColor;
     color: $deepBlueColor;
     border: solid 2px $deepBlueColor;
     top: 115px;
@@ -115,19 +120,17 @@ $grayColor: #4F5261;
 }
 .btn-nine {
     @include btn-primary;
-    background-color: $whiteColor;
+    background-color: $pureWhiteColor;
     color: $deepBlueColor;
     width: Hug (169px)px;
     height: Hug (52px)px;
     top: 194px;
     left: 20px;
     padding: 14px 24px;
-    font-size: 16px;
 }
-
 .btn-ten {
     @include btn-primary;
-    background-color: $whiteColor;
+    background-color: $pureWhiteColor;
     color: $deepBlueColor;
     width: Hug (169px)px;
     height: Hug (52px)px;
@@ -136,11 +139,10 @@ $grayColor: #4F5261;
     left: 20px;
     padding: 14px 24px;
 }
-
 .btn-eleven {
     @include btn-primary;
-    background-color: $whiteColor;
-    color: $darkBlColor;
+    background-color: $pureWhiteColor;
+    color: $darkBlueColor;
     width: Hug (146px)px;
     height: Hug (44px)px;
     top: 202px;
@@ -149,8 +151,8 @@ $grayColor: #4F5261;
 }
 .btn-twelve {
     @include btn-primary;
-    background-color: $whiteColor;
-    color: $darkBlColor;
+    background-color: $pureWhiteColor;
+    color: $darkBlueColor;
     text-decoration: underline;
     width: Hug (146px)px;
     height: Hug (44px)px;
@@ -159,4 +161,59 @@ $grayColor: #4F5261;
     padding: 10px 20px;
 }
 
+@mixin color-box {
+    width: 100px;
+    height: 100px;
+    top: 401px;
+    left: 58px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px;
+    margin: 3px;
+    opacity: 0px;
+}
 
+.color-one {
+    @include color-box;
+    border: solid 1px #000000;
+}
+
+.color-two {
+    @include color-box;
+    background-color: $pureBlackColor;
+}
+
+.color-three {
+    @include color-box;
+    background-color: $titleDarkColor;
+}
+
+.color-four {
+    @include color-box;
+    background-color: $deepBlueColor;
+}
+
+.color-five {
+    @include color-box;
+    background-color: $lightblueColor;
+}
+.color-six {
+    @include color-box;
+    background-color: $orangeColor;
+}
+.color-seven {
+    @include color-box;
+    background-color: $braveYellowColor;
+}
+.color-eight {
+    @include color-box;
+    background-color: $titleDarkColor;
+}
+.color-nine {
+    @include color-box;
+    background-color: $descriptivedarkColor;
+}
+.color-ten {
+    @include color-box;
+    background-color: $grayColor;
+}
