@@ -1,0 +1,58 @@
+@use '../abstracts/variables' as *;
+
+@mixin color-box {
+    width: 100px;
+    height: 100px;
+    top: 401px;
+    left: 58px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px;
+    margin: 3px;
+    opacity: 0px;
+}
+
+.color-one {
+    @include color-box;
+    border: solid 1px $pureBlackColor;
+}
+
+.color-two {
+    @include color-box;
+    background-color: $pureBlackColor;
+}
+
+.color-three {
+    @include color-box;
+    background-color: $titleDarkColor;
+}
+
+.color-four {
+    @include color-box;
+    background-color: $deepBlueColor;
+}
+
+.color-five {
+    @include color-box;
+    background-color: $lightblueColor;
+}
+.color-six {
+    @include color-box;
+    background-color: $orangeColor;
+}
+.color-seven {
+    @include color-box;
+    background-color: $braveYellowColor;
+}
+.color-eight {
+    @include color-box;
+    background-color: $titleDarkColor;
+}
+.color-nine {
+    @include color-box;
+    background-color: $descriptivedarkColor;
+}
+.color-ten {
+    @include color-box;
+    background-color: $grayColor;
+}

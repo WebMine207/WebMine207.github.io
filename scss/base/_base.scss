@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+.col-12 {
+    width: 100%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-3 {
+    width: 25%;
+}
+.components-box {
+    width: auto;
+    margin: 5px;
+    border: dashed 1px #000000;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+    
