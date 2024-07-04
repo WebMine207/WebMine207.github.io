@@ -1,0 +1,162 @@
+/** Variables */
+$deepBlueColor: #0432df;
+$darkBlColor : #0029C2;
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$darkBlueColor : #020d37;
+$lightblueColor : #CDD6F9;
+$orangeColor : #F59E00;
+$yellowColor: #FCE2B3;
+$titleDarkColor: #020D37;
+$descriptivedarkColor : #4C526A;
+$grayColor: #4F5261;
+
+@font-face {
+    font-family: 'Poppins-semibold'; 
+    src: url('font/Poppins/Poppins-SemiBold.ttf'); 
+  }
+
+* {
+    box-sizing: border-box;
+}
+.border {
+    width: 40%;
+    border: dashed 1px #000000;
+    padding: 10px;
+}
+
+@mixin btn-primary {
+    color: #ffffff;
+    top: 20px;
+    gap: 10px;
+    margin: 10px; //Remove it once start design web
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Poppins-semibold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    border: 1px;
+    text-align: center;
+}
+
+
+.btn-one {
+    @include btn-primary;
+    background-color : $deepBlueColor; 
+    width: Hug (169px)px;
+    height: Hug (52px)px;
+    padding: 14px 24px;
+}
+.btn-two {
+    @include btn-primary;
+    background-color: $darkBlColor;
+    width: Hug (169px)px;
+    height: Hug (52px)px;
+    padding: 14px 24px;
+}
+.btn-three {
+    @include btn-primary;
+    background-color: $darkBlColor;
+    width: Hug (146px)px;
+    height: Hug (44px)px;
+    padding: 10px 20px;
+    left: 448px;
+    
+}
+.btn-four {
+    @include btn-primary;
+    background-color: $darkBlColor;
+    width: Hug (146px)px;
+    height: Hug (44px)px;
+    top: 28px;
+    left: 639px;
+    padding: 10px 20px;
+}
+.btn-five {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $deepBlueColor;
+    width: Hug (169px)px;
+    height: Hug (52px)px;
+    top: 107px;
+    left: 20px;
+    padding: 14px 24px;
+    border: solid 2px $deepBlueColor;
+}
+.btn-six {
+    @include btn-primary;
+    background-color: $lightblueColor;
+    color: $deepBlueColor;
+    border: solid 2px $deepBlueColor;
+    top: 107px;
+    left: 234px;
+    padding: 14px 24px;
+}
+.btn-seven {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $deepBlueColor;
+    border: solid 2px $deepBlueColor;
+    top: 115px;
+    left: 148px;
+    padding: 10px 20px;
+}
+.btn-eight {
+    @include btn-primary;
+    background-color: $lightblueColor;
+    color: $deepBlueColor;
+    border: solid 2px $deepBlueColor;
+    top: 115px;
+    left: 639px;
+    padding: 10px 20px;
+}
+.btn-nine {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $deepBlueColor;
+    width: Hug (169px)px;
+    height: Hug (52px)px;
+    top: 194px;
+    left: 20px;
+    padding: 14px 24px;
+    font-size: 16px;
+}
+
+.btn-ten {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $deepBlueColor;
+    width: Hug (169px)px;
+    height: Hug (52px)px;
+    text-decoration: underline;
+    top: 194px;
+    left: 20px;
+    padding: 14px 24px;
+}
+
+.btn-eleven {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $darkBlColor;
+    width: Hug (146px)px;
+    height: Hug (44px)px;
+    top: 202px;
+    left: 448px;
+    padding: 10px 20px;
+}
+.btn-twelve {
+    @include btn-primary;
+    background-color: $whiteColor;
+    color: $darkBlColor;
+    text-decoration: underline;
+    width: Hug (146px)px;
+    height: Hug (44px)px;
+    top: 202px;
+    left: 639px;
+    padding: 10px 20px;
+}
+
+
