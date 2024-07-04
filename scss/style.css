@@ -523,35 +523,19 @@ h6 {
 /* Captions */
 .caption-medium-one {
   font-family: Poppins;
-  text-align: left;
-  gap: 0px;
-  opacity: 0px;
-  width: 153px;
-  height: 34px;
-  top: 297px;
   font-size: 18px;
   font-weight: 500;
   line-height: 34.02px;
 }
 
 .caption-reguler-one {
-  width: 148px;
-  height: 34px;
-  top: 347px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 34.02px;
   letter-spacing: -0.05em;
 }
 
 .caption-medium-two {
   font-family: Poppins;
-  text-align: left;
-  gap: 0px;
-  opacity: 0px;
-  width: 153px;
-  height: 29px;
-  top: 397px;
   font-size: 16px;
   font-weight: 500;
   line-height: 28.8px;
@@ -559,12 +543,6 @@ h6 {
 
 .caption-reguler-two {
   font-family: Poppins;
-  text-align: left;
-  gap: 0px;
-  opacity: 0px;
-  width: 135px;
-  height: 29px;
-  top: 442px;
   font-size: 16px;
   font-weight: 400;
   line-height: 28.8px;
@@ -573,12 +551,6 @@ h6 {
 
 .caption-medium-three {
   font-family: Poppins;
-  text-align: left;
-  gap: 0px;
-  opacity: 0px;
-  width: 134px;
-  height: 24px;
-  top: 487px;
   font-size: 14px;
   font-weight: 500;
   line-height: 24.08px;
@@ -586,12 +558,6 @@ h6 {
 
 .caption-reguler-three {
   font-family: Poppins;
-  text-align: left;
-  gap: 0px;
-  opacity: 0px;
-  width: 118px;
-  height: 24px;
-  top: 531px;
   font-size: 14px;
   font-weight: 400;
   line-height: 24.08px;
