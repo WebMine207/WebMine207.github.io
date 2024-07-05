@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +8,9 @@
 }
 .d-none {
     display: none;
+}
+.text-blue {
+    color: $deepBlueColor;
 }
 .col-12 {
     width: 100%;

@@ -1,0 +1,47 @@
+
+
+.listing {
+    background-color: white;
+    margin: 80px 100px;
+}
+.category-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    ul, li {
+        padding: 0;
+        margin: 10px 28px 10px 0px; 
+    }
+}
+.filter-button {
+    width: 126px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size:  16px;
+    .filter-icon {
+        width: 30px; 
+        height: 30px; 
+        margin: -5px 10px; 
+      }
+}
+.music-list-table {
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+.play-btn {
+    width: 10%;
+}
+.music-name {
+    width: 20%;
+}
+.music-description {
+    width: 35%;
+}
+.music-categories {
+    width: 15%;
+}
+.icons {
+    width: 15%;
+}

@@ -1,0 +1,256 @@
+.typography-box {
+  width: auto;
+  margin: 5px;
+  border: dashed 1px #000000;
+  padding: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Headings */
+h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 28px;
+}
+
+h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 24px;
+}
+
+h6 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Captions */
+.caption-medium-one {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 153px;
+  height: 34px;
+  top: 297px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 34.02px;
+}
+
+.caption-reguler-one {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 148px;
+  height: 34px;
+  top: 347px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34.02px;
+  letter-spacing: -0.05em;
+}
+
+.caption-medium-two {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 153px;
+  height: 29px;
+  top: 397px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+
+.caption-reguler-two {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 135px;
+  height: 29px;
+  top: 442px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: -0.05em;
+}
+
+.caption-medium-three {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 134px;
+  height: 24px;
+  top: 487px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24.08px;
+}
+
+.caption-reguler-three {
+  font-family: Poppins;
+  text-align: left;
+  gap: 0px;
+  opacity: 0px;
+  width: 118px;
+  height: 24px;
+  top: 531px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.08px;
+  letter-spacing: -0.05em;
+}
+
+/* Lables */
+.lable-one {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  font-size: 16px;
+}
+
+.lable-two {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  font-size: 14px;
+}
+
+.lable-three {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  font-size: 12px;
+}
+
+/* capitalised */
+.capitalised {
+  width: 103px;
+  height: 16px;
+  top: 1038px;
+  left: 663px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* Subtitles */
+.subtitle-medium-one {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 170px;
+  height: 34px;
+  top: 950px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.subtitle-reguler-one {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 164px;
+  height: 34px;
+  top: 1008px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.subtitle-medium-two {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 156px;
+  height: 31px;
+  top: 1066px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30.96px;
+}
+
+.subtitle-reguler-two {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 151px;
+  height: 31px;
+  top: 1120px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30.96px;
+}
+
+.subtitle-medium-three {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 153px;
+  height: 22px;
+  top: 1174px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.08px;
+}
+
+.subtitle-reguler-three {
+  font-family: Inter;
+  opacity: 0px;
+  letter-spacing: -0.05em;
+  width: 134px;
+  height: 22px;
+  top: 1223px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.08px;
+}/*# sourceMappingURL=style.css.map */

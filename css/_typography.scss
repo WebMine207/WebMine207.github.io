@@ -12,7 +12,7 @@
     font-family: Poppins;
     font-weight: 700;
     letter-spacing: -0.01em;
-    text-align: left;
+    text-align: center;
 }
 h1 {
     @include heading-text;
@@ -42,26 +42,43 @@ h2 {
  /* Captions */
  @mixin caption-text {
     font-family: Poppins;
+    text-align: left;
+    gap: 0px;
+    opacity: 0px;
 }
 .caption-medium-one {
     @include caption-text;
+    width: 153px;
+    height: 34px;
+    top: 297px;
     font-size: 18px;
     font-weight: 500;
     line-height: 34.02px;
 }
 .caption-reguler-one {
+    @include caption-text;
+    width: 148px;
+    height: 34px;
+    top: 347px;
     font-size: 18px;
     font-weight: 400;
+    line-height: 34.02px;
     letter-spacing: -0.05em;
 }
 .caption-medium-two {
     @include caption-text;
+    width: 153px;
+    height: 29px;
+    top: 397px;
     font-size: 16px;
     font-weight: 500;
     line-height: 28.8px;
 }
 .caption-reguler-two {
     @include caption-text;
+    width: 135px;
+    height: 29px;
+    top: 442px;
     font-size: 16px;
     font-weight: 400;
     line-height: 28.8px;
@@ -69,12 +86,18 @@ h2 {
 }
 .caption-medium-three {
     @include caption-text;
+    width: 134px;
+    height: 24px;
+    top: 487px;
     font-size: 14px;
     font-weight: 500;
     line-height: 24.08px;
 }
 .caption-reguler-three {
     @include caption-text;
+    width: 118px;
+    height: 24px;
+    top: 531px;
     font-size: 14px;
     font-weight: 400;
     line-height: 24.08px;
@@ -120,28 +143,41 @@ h2 {
  /* Subtitles */
  @mixin subtitle-text {
     font-family: Inter;
+    opacity: 0px;
     letter-spacing: -0.05em;
 }
 .subtitle-medium-one {
     @include subtitle-text;
+    width: 170px;
+    height: 34px;
+    top: 950px;
     font-size: 20px;
     font-weight: 600;
     line-height: 34px;
 }
 .subtitle-reguler-one {
     @include subtitle-text;
+    width: 164px;
+    height: 34px;
+    top: 1008px;
     font-size: 20px;
     font-weight: 500;
     line-height: 34px;
 }
 .subtitle-medium-two {
     @include subtitle-text;
+    width: 156px;
+    height: 31px;
+    top: 1066px;
     font-size: 18px;
     font-weight: 600;
     line-height: 30.96px;
 }
 .subtitle-reguler-two {
     @include subtitle-text;
+    width: 151px;
+    height: 31px;
+    top: 1120px;
     font-size: 18px;
     font-weight: 500;
     line-height: 30.96px;

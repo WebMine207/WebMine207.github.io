@@ -1,0 +1,119 @@
+/* Moniter Screen */
+@media screen and (min-width: 1440px) {
+    
+    .menu-icon{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1440px) {
+    /* Header*/ 
+    .heading-content {
+        padding: 60px 150px !important;
+    }
+    .menu-icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heading-content {
+        padding: 60px 150px !important;
+    }
+    .menu-icon{
+        display: none;
+    }
+    
+}
+
+/* Tablet Screen */
+@media screen and (max-width: 768px) {
+   .heading-content {
+        padding: 40px 100px !important;
+    }
+    .navbar-option, .login-button, .music-description{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 40px;
+        height: 30px;
+    }
+    
+    /* Branding logo section */ 
+    .logo-image {
+        margin : 10px 25px 0 0!important;
+    }
+    /*Subtitle*/
+    .subtitle-reguler-one {
+        font-size: 16px !important;
+    }
+    .subtitle-reguler-three {
+        font-size: 14px !important;
+    }
+    .search-box {
+        margin-top: 51px !important;
+    }
+    /*Listing*/
+    .listing {
+        margin: 50px 60px !important;
+    }
+    .category-menu ul, .category-menu li {
+        margin: 10px 20px 10px 0 !important;
+    }
+    .gallary {
+        margin: 40px !important;
+        img {
+            margin: 0 5px !important;
+        }
+    }
+
+}
+
+/* Mobile Large Screen */
+@media screen and (max-width: 425px) {
+
+    .header {
+        padding: 15px 50px !important;
+    }
+    .heading-content {
+        padding: 125px 15px !important;
+    }
+    .menu-icon{
+        width: 30px;
+        height: 30px;
+    }
+    h3 {
+        font-size: 20px !important;
+    }
+
+     /*Listing*/
+    .listing {
+        margin: 50px 17px !important;
+    }
+    .category-menu ul, .category-menu li {
+        margin: 10px 12px 10px 0 !important;
+    }
+    .optional {
+        display: none;
+    }
+    .gallary {
+        margin: 37px !important;
+    }
+ }
+
+ /* Mobile meduiem Screen */
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 10px 25px !important;
+    }
+    .menu-icon{
+        width: 25px;
+        height: 25px;
+    }
+ }
+
+ /* Mobile small Screen */
+@media screen and (max-width: 320px) {
+    
+ }

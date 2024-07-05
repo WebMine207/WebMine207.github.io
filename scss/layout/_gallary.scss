@@ -1,0 +1,21 @@
+.gallary {
+    margin: 60px 101px;
+    img {
+        border-radius:  8px;
+        margin: 0 10px;
+    }
+}
+.image-container {
+    position: relative;
+}
+.images-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.overlay-text {
+    color: white;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}

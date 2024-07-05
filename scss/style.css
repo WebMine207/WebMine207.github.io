@@ -1,11 +1,115 @@
 @font-face {
   font-family: "Poppins";
-  src: url("../../font/Poppins/Poppins-SemiBold.ttf");
+  src: url("../../font/Poppins/Poppins-Light.ttf");
 }
 @font-face {
   font-family: "Inter";
-  src: url("../../font/inter/static/Inter-Bold.ttf");
+  src: url("../../font/inter/Inter-VariableFont_slnt,wght.ttf");
 }
+/* Moniter Screen */
+@media screen and (min-width: 1440px) {
+  .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+  /* Header*/
+  .heading-content {
+    padding: 60px 150px !important;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heading-content {
+    padding: 60px 150px !important;
+  }
+  .menu-icon {
+    display: none;
+  }
+}
+/* Tablet Screen */
+@media screen and (max-width: 768px) {
+  .heading-content {
+    padding: 40px 100px !important;
+  }
+  .navbar-option, .login-button, .music-description {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    width: 40px;
+    height: 30px;
+  }
+  /* Branding logo section */
+  .logo-image {
+    margin: 10px 25px 0 0 !important;
+  }
+  /*Subtitle*/
+  .subtitle-reguler-one {
+    font-size: 16px !important;
+  }
+  .subtitle-reguler-three {
+    font-size: 14px !important;
+  }
+  .search-box {
+    margin-top: 51px !important;
+  }
+  /*Listing*/
+  .listing {
+    margin: 50px 60px !important;
+  }
+  .category-menu ul, .category-menu li {
+    margin: 10px 20px 10px 0 !important;
+  }
+  .gallary {
+    margin: 40px !important;
+  }
+  .gallary img {
+    margin: 0 5px !important;
+  }
+}
+/* Mobile Large Screen */
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 15px 50px !important;
+  }
+  .heading-content {
+    padding: 125px 15px !important;
+  }
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  /*Listing*/
+  .listing {
+    margin: 50px 17px !important;
+  }
+  .category-menu ul, .category-menu li {
+    margin: 10px 12px 10px 0 !important;
+  }
+  .optional {
+    display: none;
+  }
+  .gallary {
+    margin: 37px !important;
+  }
+}
+/* Mobile meduiem Screen */
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 10px 25px !important;
+  }
+  .menu-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+/* Mobile small Screen */
 * {
   box-sizing: border-box;
 }
@@ -16,6 +120,10 @@
 
 .d-none {
   display: none;
+}
+
+.text-blue {
+  color: #0432df;
 }
 
 .col-12 {
@@ -42,16 +150,10 @@
 
 .btn-one {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -64,16 +166,10 @@
 
 .btn-two {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -86,63 +182,39 @@
 
 .btn-three {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
   cursor: pointer;
   background-color: #0432df;
-  width: Hug 146px px;
-  height: Hug 44px px;
   padding: 10px 20px;
   left: 448px;
 }
 
 .btn-four {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
   cursor: pointer;
   background-color: #0029C2;
-  width: Hug 146px px;
-  height: Hug 44px px;
-  top: 28px;
-  left: 639px;
   padding: 10px 20px;
 }
 
 .btn-five {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -159,16 +231,10 @@
 
 .btn-six {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -183,16 +249,10 @@
 
 .btn-seven {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -207,16 +267,10 @@
 
 .btn-eight {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -231,16 +285,10 @@
 
 .btn-nine {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -256,16 +304,10 @@
 
 .btn-ten {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -282,16 +324,10 @@
 
 .btn-eleven {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -307,16 +343,10 @@
 
 .btn-twelve {
   color: #ffffff;
-  top: 20px;
-  gap: 10px;
-  margin: 10px;
   border-radius: 8px;
-  border: 1px 0px 0px 0px;
+  border: 1px;
   opacity: 0px;
   font-family: Poppins;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
   letter-spacing: -0.01em;
   border: 1px;
   text-align: center;
@@ -609,71 +639,39 @@ h6 {
 
 /* Subtitles */
 .subtitle-medium-one {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
-  width: 170px;
-  height: 34px;
-  top: 950px;
   font-size: 20px;
   font-weight: 600;
   line-height: 34px;
 }
 
 .subtitle-reguler-one {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
-  width: 164px;
-  height: 34px;
-  top: 1008px;
   font-size: 20px;
   font-weight: 500;
   line-height: 34px;
 }
 
 .subtitle-medium-two {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
-  width: 156px;
-  height: 31px;
-  top: 1066px;
   font-size: 18px;
   font-weight: 600;
   line-height: 30.96px;
 }
 
 .subtitle-reguler-two {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
-  width: 151px;
-  height: 31px;
-  top: 1120px;
   font-size: 18px;
   font-weight: 500;
   line-height: 30.96px;
 }
 
 .subtitle-medium-three {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
   width: 153px;
   height: 22px;
@@ -684,11 +682,7 @@ h6 {
 }
 
 .subtitle-reguler-three {
-  text-align: left;
-  left: 79px;
   font-family: Inter;
-  gap: 0px;
-  opacity: 0px;
   letter-spacing: -0.05em;
   width: 134px;
   height: 22px;
@@ -696,4 +690,174 @@ h6 {
   font-size: 16px;
   font-weight: 500;
   line-height: 22.08px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.head-text {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+.logo {
+  width: 110px;
+  height: 17px;
+}
+
+.navbar-option {
+  font-family: Poppins;
+  color: #ffffff;
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.landing-section {
+  overflow: hidden;
+  background-image: url("../../images/header-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.heading-content {
+  display: grid;
+  padding: 95px 200px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.heading-subtitle {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.search-box {
+  margin: 95px 0 10px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  height: 60px;
+  color: #4F5261;
+}
+.search-box span {
+  position: absolute;
+  margin: 15px 10px;
+}
+.search-box img {
+  width: 24px;
+  height: 24px;
+  margin: 20px 20px;
+}
+
+.keywords {
+  color: #ffffff;
+}
+
+.tag-line {
+  display: grid;
+  justify-content: center;
+  margin-top: 51px;
+}
+
+.branding-logo {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.branding-logo .logo-image {
+  margin-right: 89px;
+}
+
+.gallary {
+  margin: 60px 101px;
+}
+.gallary img {
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.images-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.overlay-text {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.listing {
+  background-color: white;
+  margin: 80px 100px;
+}
+
+.category-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.category-menu ul, .category-menu li {
+  padding: 0;
+  margin: 10px 28px 10px 0px;
+}
+
+.filter-button {
+  width: 126px;
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 16px;
+}
+.filter-button .filter-icon {
+  width: 30px;
+  height: 30px;
+  margin: -5px 10px;
+}
+
+.music-list-table {
+  width: 100%;
+  padding: 25px 0 0 0;
+}
+
+.play-btn {
+  width: 10%;
+}
+
+.music-name {
+  width: 20%;
+}
+
+.music-description {
+  width: 35%;
+}
+
+.music-categories {
+  width: 15%;
+}
+
+.icons {
+  width: 15%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+@use '../abstracts/variables' as *;
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.head-text {
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.logo {
+    width: 110px;
+    height: 17px;
+}
+.navbar-option {
+    font-family: Poppins;
+    color: $pureWhiteColor;
+    text-align: center;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.landing-section {
+    overflow: hidden;
+    background-image: url("../../images/header-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.heading-content {
+    display: grid;
+    padding: 95px 200px;
+    justify-content: center;
+    color: $pureWhiteColor;
+}
+.heading-subtitle {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.search-box {
+    
+    margin: 95px 0 10px 0;
+    border-radius: 8px;
+    background-color: $pureWhiteColor;
+    height: 60px;
+    color: $grayColor;
+
+    span {
+        position: absolute;
+        margin: 15px 10px;
+    }
+    img {
+        width: 24px;
+        height: 24px;
+        margin: 20px 20px;
+    }
+}
+.keywords {
+    color: $pureWhiteColor;
+}
+.tag-line {
+    display: grid;
+    justify-content: center;
+    margin-top: 51px;
+}

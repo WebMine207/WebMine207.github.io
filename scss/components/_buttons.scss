@@ -2,22 +2,15 @@
 
 @mixin btn-primary {
     color: #ffffff;
-    top: 20px;
-    gap: 10px;
-    margin: 10px; //Remove it once start design web
     border-radius: 8px;
-    border: 1px 0px 0px 0px;
+    border: 1px;
     opacity: 0px;
     font-family: Poppins;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
     letter-spacing: -0.01em;
     border: 1px;
     text-align: center;
     cursor: pointer;
 }
-
 
 .btn-one {
     @include btn-primary;
@@ -36,8 +29,6 @@
 .btn-three {
     @include btn-primary;
     background-color: $deepBlueColor;
-    width: Hug (146px)px;
-    height: Hug (44px)px;
     padding: 10px 20px;
     left: 448px;
     
@@ -45,10 +36,6 @@
 .btn-four {
     @include btn-primary;
     background-color: $darkBlueColor;
-    width: Hug (146px)px;
-    height: Hug (44px)px;
-    top: 28px;
-    left: 639px;
     padding: 10px 20px;
 }
 .btn-five {
